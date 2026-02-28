@@ -13,7 +13,7 @@ lazy val root = project
 lazy val testOnlyHeavy = taskKey[Unit]("Run only the heavy tests")
 testOnlyHeavy := (Test / testOnly)
   .toTask(
-    " -- -n dev.capslock.scalatesttaggingexercise.Heavy"
+    " -- -n dev.capslock.scalatesttaggingexercise.tags.Heavy"
   )
   .value
 
