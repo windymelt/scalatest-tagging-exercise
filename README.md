@@ -1,0 +1,1 @@
+## ScalaTest tagging example
